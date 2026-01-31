@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strapt Academy - Firearms Training</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p>Get Your Gift Card Now <a href="gift-cards.html">→</a></p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="https://www.straptacademy.com/cdn/shop/files/Strapt_Logo.png?v=1713061837&width=400" alt="Strapt Academy">
+            </a>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="classes.html" class="nav-link">Training/Courses</a>
+                        <ul class="dropdown">
+                            <li><a href="private-lessons.html">Private Lessons</a></li>
+                            <li><a href="classes.html">All Classes</a></li>
+                            <li><a href="hosting.html">Hosting Inquiries</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="merch.html" class="nav-link">Merch & Gift Cards</a></li>
+                    <li><a href="instructors.html" class="nav-link">Instructors</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <a href="account.html" class="icon-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </a>
+                <a href="cart.html" class="icon-link cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Training/Courses</a></li>
+            <li><a href="merch.html">Merch & Gift Cards</a></li>
+            <li><a href="instructors.html">Instructors</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-video-container">
+            <div class="hero-overlay"></div>
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="https://cdn.shopify.com/videos/c/o/v/strapt-hero.mp4" type="video/mp4">
+            </video>
+            <!-- Fallback background if video doesn't load -->
+            <div class="hero-fallback"></div>
+        </div>
+        <div class="hero-content">
+            <h1>New to shooting or tired of not getting better?</h1>
+            <p>Stop wasting time and ammo — train with Strapt Academy and finally see real progress.</p>
+            <a href="classes.html" class="btn btn-primary">BOOK YOUR FIRST SESSION</a>
+        </div>
+    </section>
+
+    <!-- Problem Statement Section -->
+    <section class="section section-problem">
+        <div class="container">
+            <div class="split-content">
+                <div class="split-image">
+                    <img src="https://www.straptacademy.com/cdn/shop/files/Adobe_Express_-_file_14_900x.jpg?v=1763249990" alt="Firearms training">
+                </div>
+                <div class="split-text">
+                    <h2>Are you stuck choosing between speed and precision?</h2>
+                    <p>Most gun owners go to the range but don't really improve. They're stuck in the same patterns, unsure what's holding them back, or overwhelmed by conflicting advice.</p>
+                    <p>Maybe you've invested in gear, watched countless YouTube videos, or tried different techniques — but nothing clicks. That frustration is real, and it's exactly why Strapt Academy exists.</p>
+                    <a href="classes.html" class="btn btn-primary">BOOK YOUR FIRST SESSION</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructor Message Section -->
+    <section class="section section-instructor">
+        <div class="container">
+            <div class="split-content reverse">
+                <div class="split-image">
+                    <img src="https://www.straptacademy.com/cdn/shop/files/Adobe_Express_-_file_8_900x.jpg?v=1763094642" alt="Buck Lawler - Head Instructor">
+                </div>
+                <div class="split-text">
+                    <h2>A message from your instructor</h2>
+                    <p class="quote">"I'm Buck Lawler, USPSA Grand Master and lead instructor at Strapt Academy. I've devoted thousands of hours to reach that level — but more importantly, I've helped countless shooters break through their plateaus."</p>
+                    <p>I've trained new gun owners, competition shooters, SWAT teams, and military personnel. Every shooter is different, but the fundamentals remain the same. Let me help you find what works for you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Pathways Section -->
+    <section class="section section-pathways">
+        <div class="container">
+            <h2 class="section-title">FIND YOUR PATH</h2>
+            <p class="section-subtitle">Select the training that matches where you are right now</p>
+
+            <div class="pathways-grid">
+                <div class="pathway-card">
+                    <div class="pathway-image">
+                        <img src="https://www.straptacademy.com/cdn/shop/files/Adobe_Express_-_file_14_900x.jpg?v=1763249990" alt="New Gun Owner">
+                    </div>
+                    <div class="pathway-content">
+                        <h3>New Gun Owner</h3>
+                        <p>Safe handling, fundamentals, and building confidence from the ground up.</p>
+                        <a href="classes.html" class="btn btn-secondary">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="pathway-card">
+                    <div class="pathway-image">
+                        <img src="https://www.straptacademy.com/cdn/shop/files/Adobe_Express_-_file_8_900x.jpg?v=1763094642" alt="Shooting But Not Improving">
+                    </div>
+                    <div class="pathway-content">
+                        <h3>Shooting But Not Improving</h3>
+                        <p>Break through plateaus with focused training on speed and accuracy.</p>
+                        <a href="classes.html" class="btn btn-secondary">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="pathway-card">
+                    <div class="pathway-image">
+                        <img src="https://www.straptacademy.com/cdn/shop/files/Adobe_Express_-_file_3_900x.jpg?v=1763094642" alt="AIWB Training">
+                    </div>
+                    <div class="pathway-content">
+                        <h3>How to Draw AIWB</h3>
+                        <p>Master appendix carry technique with safe, efficient draw stroke fundamentals.</p>
+                        <a href="classes.html" class="btn btn-secondary">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="pathway-card">
+                    <div class="pathway-image">
+                        <img src="https://www.straptacademy.com/cdn/shop/files/Adobe_Express_-_file_11_900x.jpg?v=1763094852" alt="Performance Shooter">
+                    </div>
+                    <div class="pathway-content">
+                        <h3>Performance Shooter</h3>
+                        <p>Advanced techniques for competitive shooters ready to reach the next level.</p>
+                        <a href="classes.html" class="btn btn-secondary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Strapt Way Section -->
+    <section class="section section-method">
+        <div class="container">
+            <h2 class="section-title">THE STRAPT WAY</h2>
+            <p class="section-subtitle">Our proven three-step framework to transform your shooting</p>
+
+            <div class="method-steps">
+                <div class="method-step">
+                    <div class="step-number">1</div>
+                    <h3>Assess</h3>
+                    <p>We evaluate your current baseline — identifying strengths, weaknesses, and the specific skills holding you back.</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-number">2</div>
+                    <h3>Train</h3>
+                    <p>Focused drills targeting speed, accuracy, and consistency. No fluff — just the reps that matter.</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-number">3</div>
+                    <h3>Perform</h3>
+                    <p>Apply your skills under pressure. Real scenarios that test what you've learned and build true confidence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Cards Section -->
+    <section class="section section-visuals">
+        <div class="container-full">
+            <div class="visual-cards">
+                <div class="visual-card">
+                    <img src="https://www.straptacademy.com/cdn/shop/files/Adobe_Express_-_file_8_900x.jpg?v=1763094642" alt="Expert Instruction">
+                    <div class="visual-overlay">
+                        <h3>Expert Instruction</h3>
+                        <p>Learn from a USPSA Grand Master with thousands of hours of training experience</p>
+                    </div>
+                </div>
+                <div class="visual-card">
+                    <img src="https://www.straptacademy.com/cdn/shop/files/Adobe_Express_-_file_3_900x.jpg?v=1763094642" alt="Practical Skills">
+                    <div class="visual-overlay">
+                        <h3>Practical Skills</h3>
+                        <p>Real-world techniques you can apply immediately to improve your shooting</p>
+                    </div>
+                </div>
+                <div class="visual-card">
+                    <img src="https://cdn.shopify.com/s/files/1/0850/4131/6158/files/DSC00584-min_1.jpg?v=1763094359" alt="Proven Results">
+                    <div class="visual-overlay">
+                        <h3>Proven Results</h3>
+                        <p>Join hundreds of satisfied students who have transformed their shooting abilities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-cta">
+        <div class="container">
+            <h2>Ready to finally see real progress?</h2>
+            <p>Stop wasting time and ammo. Book your first session with Strapt Academy today.</p>
+            <a href="classes.html" class="btn btn-primary btn-large">BOOK YOUR FIRST SESSION</a>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section section-newsletter">
+        <div class="container">
+            <h2>SUBSCRIBE TO OUR EMAILS</h2>
+            <p>Stay updated on all upcoming classes and merch!</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Email" required>
+                <button type="submit" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="search.html">Search</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="about.html">About</a>
+                <a href="classes.html">All Classes</a>
+            </div>
+
+            <div class="payment-methods">
+                <img src="https://cdn.shopify.com/s/files/1/0850/4131/6158/files/payment-icons.png" alt="Payment Methods" class="payment-placeholder">
+                <span class="payment-text">We accept Visa, Mastercard, Amex, PayPal, Apple Pay, Google Pay, Shop Pay</span>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026, Strapt Academy. Powered by Shopify</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

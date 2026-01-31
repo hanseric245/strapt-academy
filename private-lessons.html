@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Lessons - Strapt Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p>Get Your Gift Card Now <a href="gift-cards.html">→</a></p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="https://www.straptacademy.com/cdn/shop/files/Strapt_Logo.png?v=1713061837&width=400" alt="Strapt Academy">
+            </a>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="classes.html" class="nav-link active">Training/Courses</a>
+                        <ul class="dropdown">
+                            <li><a href="private-lessons.html">Private Lessons</a></li>
+                            <li><a href="classes.html">All Classes</a></li>
+                            <li><a href="hosting.html">Hosting Inquiries</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="merch.html" class="nav-link">Merch & Gift Cards</a></li>
+                    <li><a href="instructors.html" class="nav-link">Instructors</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <a href="account.html" class="icon-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </a>
+                <a href="cart.html" class="icon-link cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Training/Courses</a></li>
+            <li><a href="merch.html">Merch & Gift Cards</a></li>
+            <li><a href="instructors.html">Instructors</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>Private Lessons</h1>
+        <p>One-on-one instruction tailored to your unique needs</p>
+    </div>
+
+    <!-- Private Lessons Content -->
+    <section class="section">
+        <div class="container">
+            <div class="split-content">
+                <div class="split-image">
+                    <img src="https://www.straptacademy.com/cdn/shop/files/Adobe_Express_-_file_8_900x.jpg?v=1763094642" alt="Private Instruction">
+                </div>
+                <div class="split-text">
+                    <h2>Individualized Instruction</h2>
+                    <p>Our private lessons offer a tailored curriculum meticulously crafted to align with your unique skillset. Whether you're a complete beginner or an experienced shooter looking to refine specific techniques, one-on-one training provides the focused attention you need to accelerate your progress.</p>
+
+                    <h3 class="mt-lg mb-sm">What's Included</h3>
+                    <ul class="credentials-list">
+                        <li>Pre-session skill assessment</li>
+                        <li>Customized training curriculum</li>
+                        <li>One-on-one instruction with Buck Lawler</li>
+                        <li>Video analysis of your technique</li>
+                        <li>Take-home practice plan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section section-pathways">
+        <div class="container">
+            <h2 class="section-title">Choose Your Session</h2>
+            <p class="section-subtitle">Select the option that works best for your schedule and goals</p>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Half Day</h3>
+                        <div class="price">$750</div>
+                        <p class="price-duration">4 hours of instruction</p>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="pricing-features">
+                            <li>Skill assessment</li>
+                            <li>Fundamentals focus</li>
+                            <li>Technique refinement</li>
+                            <li>Practice drills</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary" onclick="addToCart()">Book Half Day</a>
+                    </div>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Full Day</h3>
+                        <div class="price">$1,250</div>
+                        <p class="price-duration">8 hours of instruction</p>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="pricing-features">
+                            <li>Comprehensive assessment</li>
+                            <li>Full curriculum coverage</li>
+                            <li>Advanced techniques</li>
+                            <li>Live fire practice</li>
+                            <li>Video analysis</li>
+                            <li>Take-home plan</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" onclick="addToCart()">Book Full Day</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="section section-cta">
+        <div class="container">
+            <h2>Have Questions?</h2>
+            <p>Contact us to discuss your training goals and find the right option for you.</p>
+            <a href="contact.html" class="btn btn-primary btn-large">CONTACT US</a>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section section-newsletter">
+        <div class="container">
+            <h2>SUBSCRIBE TO OUR EMAILS</h2>
+            <p>Stay updated on all upcoming classes and merch!</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Email" required>
+                <button type="submit" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="search.html">Search</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="about.html">About</a>
+                <a href="classes.html">All Classes</a>
+            </div>
+
+            <div class="payment-methods">
+                <span class="payment-text">We accept Visa, Mastercard, Amex, PayPal, Apple Pay, Google Pay, Shop Pay</span>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026, Strapt Academy. Powered by Shopify</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
