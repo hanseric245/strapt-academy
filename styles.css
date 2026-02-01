@@ -542,6 +542,15 @@ p {
     color: var(--color-gray-light);
     border-left: 3px solid var(--color-orange);
     padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.instructor-attribution {
+    font-family: var(--font-heading);
+    color: var(--color-orange);
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     margin-bottom: 1.5rem;
 }
 
