@@ -842,11 +842,6 @@ p {
     width: 55px;
     height: 35px;
     border-radius: 3px;
-    opacity: 0.7;
-    transition: opacity var(--transition-fast);
-}
-
-.payment-icons svg:hover {
     opacity: 1;
 }
 
