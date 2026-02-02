@@ -186,20 +186,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // ========================================
-    // Text Reveal Animation
+    // Text Reveal Animation (disabled - causing layout issues)
     // ========================================
+    // Simple fade-in for hero title instead
     const heroTitle = document.querySelector('.hero-content h1');
     if (heroTitle) {
-        const text = heroTitle.textContent;
-        heroTitle.innerHTML = '';
-
-        text.split(' ').forEach((word, index) => {
-            const span = document.createElement('span');
-            span.className = 'word';
-            span.style.animationDelay = `${index * 0.1 + 0.5}s`;
-            span.textContent = word + ' ';
-            heroTitle.appendChild(span);
-        });
+        heroTitle.classList.add('hero-title-animate');
     }
 
     // ========================================

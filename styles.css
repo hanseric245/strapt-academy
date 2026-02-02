@@ -1459,17 +1459,19 @@ body.menu-open .cursor-glow {
 }
 
 /* Hero Text Animation */
-.hero-content h1 .word {
-    display: inline-block;
+.hero-content h1 {
     opacity: 0;
-    transform: translateY(30px) rotateX(-20deg);
-    animation: wordReveal 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    transform: translateY(30px);
 }
 
-@keyframes wordReveal {
+.hero-content h1.hero-title-animate {
+    animation: heroFadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) 0.3s forwards;
+}
+
+@keyframes heroFadeIn {
     to {
         opacity: 1;
-        transform: translateY(0) rotateX(0);
+        transform: translateY(0);
     }
 }
 
