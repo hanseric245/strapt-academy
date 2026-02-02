@@ -175,7 +175,7 @@ p {
 .announcement-bar {
     background: var(--gradient-primary);
     text-align: center;
-    padding: 0.75rem var(--container-padding);
+    padding: 0.35rem var(--container-padding);
     font-family: var(--font-heading);
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -203,7 +203,7 @@ p {
     background: rgba(0, 0, 0, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 40px; /* Space for announcement bar */
+    padding-top: 28px; /* Space for announcement bar */
 }
 
 .header-container {
