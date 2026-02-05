@@ -10,7 +10,8 @@
       "Bash(gh repo create:*)",
       "Bash(gh api:*)",
       "Bash(git push)",
-      "Bash(gh repo view:*)"
+      "Bash(gh repo view:*)",
+      "Bash(grep:*)"
     ]
   }
 }
